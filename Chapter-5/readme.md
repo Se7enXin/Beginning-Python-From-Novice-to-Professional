@@ -40,14 +40,26 @@ assert 0 < age < 100, 'the age must between (0,100)'
     如果顺序很重要，可将键或值存储在一个列表中并对列表排序，再进行迭代。
     要让映射记住其项的插入顺序，可使用模块collections中的OrderedDict类
 
-*
+* 迭代工具
+    * zip
+    *
+    * reversed sorted
+
+### 跳出循环：
+
+1、break
+    结束（跳出）循环
+2、continue
+    结束当前迭代，并跳到下一次迭代开头
+3、while True/break
 
 ## 5.6 简单推导
 
-
-
 ## 5.7 三人行
 
-
+1. pass
+2. del
+    垃圾收集
+3. exec eval
 
 
